@@ -1,0 +1,40 @@
+{
+    "name": "greg-j-preece/joomla-currency-converter",
+    "description": "Joomla module and plugin convert currency values in a Joomla site via the European Central Bank.",
+    "keywords": [
+        "joomla",
+        "joomla3",
+        "currency",
+        "converter",
+        "european central bank"
+    ],
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Greg J Preece",
+            "email": "greg@preece.ca",
+            "homepage": "https://preece.ca",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],    
+    "support": {
+        "issues": "https://github.com/GregJPreece/joomla-currency-converter/issues",
+        "source": "https://github.com/GregJPreece/joomla-currency-converter"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "npm-asset/types--jquery": "1.10.35"
+    },
+    "require-dev": {
+        "ext-zip": "*",
+        "phing/phing": "^2.16",
+        "npm-asset/typescript": "^3.6"
+    }
+}

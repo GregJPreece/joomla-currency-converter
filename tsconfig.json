@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "none",
+        "sourceMap": true,
+        "strict": true,                           /* Enable all strict type-checking options. */
+         "typeRoots": [
+             "definitions/",
+             "vendor/npm-asset/types-**/"
+         ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "definitions/",
+        "vendor/"
+    ]
+}
